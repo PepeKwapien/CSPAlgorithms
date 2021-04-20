@@ -1,8 +1,6 @@
 package einstein_riddle_constraints;
 
-import einstein_riddle.Beverage;
 import einstein_riddle.House;
-import einstein_riddle.Nationality;
 import einstein_riddle.Pet;
 import einstein_riddle.Tobacco;
 import interfaces.IConstraint;

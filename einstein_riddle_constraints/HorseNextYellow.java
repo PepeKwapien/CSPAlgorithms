@@ -2,7 +2,6 @@ package einstein_riddle_constraints;
 
 import einstein_riddle.House;
 import einstein_riddle.HouseColor;
-import einstein_riddle.Nationality;
 import einstein_riddle.Pet;
 import interfaces.IConstraint;
 import interfaces.IValue;

@@ -5,7 +5,6 @@ import java.util.Random;
 
 import choose_value.DefaultOrderValue;
 import choose_variable.DefaultOrderVariable;
-import choose_variable.MostConstrainedVariable;
 import csp.CSP;
 import interfaces.IChooseValue;
 import interfaces.IConstraint;

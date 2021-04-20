@@ -1,7 +1,6 @@
 package einstein_riddle;
 
 import choose_variable.DefaultOrderVariable;
-import coloring_map.AdjacentAreasConstraint;
 import csp.CSP;
 import einstein_riddle_constraints.DanishTea;
 import einstein_riddle_constraints.EinsteinUnique;

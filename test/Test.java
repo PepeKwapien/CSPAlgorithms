@@ -7,12 +7,9 @@ import choose_value.DefaultOrderValue;
 import choose_value.MostRepeatedValue;
 import choose_variable.DefaultOrderVariable;
 import choose_variable.MostConstrainedVariable;
-import coloring_map.AdjacentAreasConstraint;
-import coloring_map.MapArea;
 import coloring_map.MapGenerator;
 import csp.CSP;
 import einstein_riddle.EinsteinRiddleGenerator;
-import interfaces.IConstraint;
 
 public class Test {
 
@@ -23,8 +20,6 @@ public class Test {
 		colors.add("red");
 		colors.add("green");
 		colors.add("yellow");
-		
-		IConstraint[] c = {new AdjacentAreasConstraint()};
 		
 		CSP csp = null;
 		

@@ -1,9 +1,6 @@
 package algorithms;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
@@ -232,13 +229,5 @@ public class Algorithms {
 		}
 		
 		return correctSolution;
-	}
-	
-	public static ArrayList<CSP> ac3Algorithm(CSP csp) {
-		return measureAlgorithm(csp, 3, null);
-	}
-	
-	private static ArrayList<CSP> recurAC3(CSP csp, int depth){
-		return null;
 	}
 }
