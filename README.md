@@ -4,7 +4,7 @@ Implemented two CSP algorithms:
 * Backtracking
 * Forward checking
 
-Algorithms are generic and universal - all thanks to interfaces which have to be implemented by specific elements of new CSP problems.
+Algorithms are universal - all thanks to interfaces which have to be implemented by specific elements of new CSP problems.
 
 Available interfaces:
 * IVariable - it's an interface that has to be implemented by an element that 'variable' in our CSP problem. Usually a variable is a single element (e.g. color of the house, nationality of a person living in a house) but in this project variable can be treated as a group of variables (e.g. house that can be described by its color, nationality of a person living in it, pet that this person has). IVariable has to contain collection of IValue
